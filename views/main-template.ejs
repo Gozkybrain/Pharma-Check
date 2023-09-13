@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedMe - Meal Recommendation</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="myContainer">
+        <h1>Let's find a meal for you 🍽️</h1>
+
+        <!-- == SELECT FORM FOR FINDING MEALS -->
+        <form id="mealForm" action="/meals/random" method="GET" class="form">
+            <!-- GRID BOX STARTS -->
+            <div class="box">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <!-- Select form for meal type -->
+                        <select id="mealType">
+                            <option value="">Random Meal</option>
+                            <option value="breakfast">Breakfast</option>
+                            <option value="lunch">Lunch</option>
+                            <option value="dinner">Dinner</option>
+                            <option value="dessert">Dessert</option>
+                            <option value="snack">Snacks</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-4">
+
+                        <!-- Button go get request in a modal -->
+                        <button type="button" class="" data-toggle="modal" id="findMealButton" data-target="#modalMeal">
+                            Find a Meal
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- GRID BOX ENDS -->
+        </form>
+
+
+        <!-- * Modal to display the meal results -->
+        <div class="modal fade" id="modalMeal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="result" id="mealResult">
+                            <!-- Modal content for meal -->
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- == SELECT MEAL ENDS HERE -->
+
+
+        <!-- == Search form for meals by name -->
+        <form id="searchForm">
+            <!-- BOX GRID STARTS -->
+            <div class="box">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <input type="text" id="searchQuery" placeholder="Search for a meal">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <button type="button" class="" id="searchButton" data-toggle="modal"
+                            data-target=".bd-example-modal-xl">Search Meal</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- BOX GRID ENDS -->
+        </form>
+
+
+        <!-- * Modal to display search results-->
+        <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="search-results" id="searchResults">
+                            <!-- Container for displaying search results -->
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- == find meal by search ends -->
+    </div>
+
+
+
+
+    <!-- ! Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
