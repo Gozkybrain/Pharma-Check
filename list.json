@@ -1,0 +1,802 @@
+[
+    {
+        "id": 1,
+        "address": "123 Main Street",
+        "price": "$250,000",
+        "type": "Duplex",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Swimming Pool",
+            "Garden",
+            "Garage"
+        ],
+        "location": "Texas",
+        "closestLandmark": "Central Park",
+        "description": "Beautiful single-family home with modern amenities.",
+        "thumbnail": "./images/thumbnail1.webp"
+    },
+    {
+        "id": 2,
+        "address": "456 Oak Street",
+        "price": "$350,000",
+        "type": "Apartment",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Fitness Center",
+            "Balcony",
+            "Security"
+        ],
+        "location": "Texas",
+        "closestLandmark": "Downtown Square",
+        "description": "Modern condominium with stunning views and top-notch amenities.",
+        "thumbnail": "./images/thumbnail2.webp"
+    },
+    {
+        "id": 3,
+        "address": "789 Pine Street",
+        "price": "$450,000",
+        "type": "Apartment",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Attached Garage",
+            "Backyard Patio",
+            "Walk-in Closet"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "Shopping Mall",
+        "description": "Spacious townhouse with modern amenities and attached garage.",
+        "thumbnail": "./images/thumbnail3.webp"
+    },
+    {
+        "id": 4,
+        "address": "101 Elm Avenue",
+        "price": "$550,000",
+        "type": "Duplex",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Two Car Garage",
+            "Private Deck",
+            "Hardwood Floors"
+        ],
+        "location": "Chicago",
+        "closestLandmark": "Public Transit Station",
+        "description": "Charming duplex with separate entrances and private deck.",
+        "thumbnail": "./images/thumbnail4.webp"
+    },
+    {
+        "id": 5,
+        "address": "234 Maple Lane",
+        "price": "$400,000",
+        "type": "Ranch",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Large Yard",
+            "Fireplace",
+            "Sunroom"
+        ],
+        "location": "Texas",
+        "closestLandmark": "University Campus",
+        "description": "Cozy ranch-style home with a spacious yard and fireplace.",
+        "thumbnail": "./images/thumbnail5.webp"
+    },
+    {
+        "id": 6,
+        "address": "567 Walnut Avenue",
+        "price": "$600,000",
+        "type": "Apartment",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Swimming Pool",
+            "Gym",
+            "Concierge Service"
+        ],
+        "location": "Texas",
+        "closestLandmark": "Financial District",
+        "description": "Luxurious apartment with premium amenities and stunning city views.",
+        "thumbnail": "./images/thumbnail6.webp"
+    },
+    {
+        "id": 7,
+        "address": "789 Cherry Lane",
+        "price": "$700,000",
+        "type": "Duplex",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Spa Bathroom",
+            "Wrap-around Porch",
+            "Fire Pit"
+        ],
+        "location": "Chicago",
+        "closestLandmark": "Historic District",
+        "description": "Elegant colonial house with luxurious amenities and picturesque surroundings.",
+        "thumbnail": "./images/thumbnail7.webp"
+    },
+    {
+        "id": 8,
+        "address": "890 Cedar Street",
+        "price": "$800,000",
+        "type": "Duplex",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Open Floor Plan",
+            "Exposed Brick",
+            "High Ceilings"
+        ],
+        "location": "Oklahoma",
+        "closestLandmark": "Art Gallery",
+        "description": "Sleek modern loft with industrial-chic design and abundant natural light.",
+        "thumbnail": "./images/thumbnail8.webp"
+    },
+    {
+        "id": 9,
+        "address": "901 Pine Avenue",
+        "price": "$750,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Private Beach Access",
+            "Ocean View Terrace",
+            "Infinity Pool"
+        ],
+        "location": "Florida",
+        "closestLandmark": "Beach Boardwalk",
+        "description": "Luxurious beachfront villa with panoramic ocean views and private amenities.",
+        "thumbnail": "./images/thumbnail9.webp"
+    },
+    {
+        "id": 10,
+        "address": "123 Pine Street",
+        "price": "$650,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Boat Dock",
+            "Outdoor Fireplace",
+            "Screened Porch"
+        ],
+        "location": "Florida",
+        "closestLandmark": "Lakefront",
+        "description": "Cozy cabin with lakefront access and serene woodland surroundings.",
+        "thumbnail": "./images/thumbnail10.webp"
+    },
+    {
+        "id": 11,
+        "address": "789 Magnolia Drive",
+        "price": "$550,000",
+        "type": "Mansion",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Ski-in/Ski-out",
+            "Hot Tub",
+            "Mountain Views"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "Ski Resort",
+        "description": "Charming chalet nestled in the mountains with direct access to skiing.",
+        "thumbnail": "./images/thumbnail11.webp"
+    },
+    {
+        "id": 12,
+        "address": "456 Cypress Lane",
+        "price": "$800,000",
+        "type": "Duplex",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Roof Terrace",
+            "Panoramic City Views",
+            "Home Automation"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "City Center",
+        "description": "Sleek penthouse with luxurious amenities and breathtaking city views.",
+        "thumbnail": "./images/thumbnail12.webp"
+    },
+    {
+        "id": 13,
+        "address": "101 Pine Ridge Road",
+        "price": "$700,000",
+        "type": "Duplex",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Fireplace",
+            "Sauna",
+            "Deck with Hot Tub"
+        ],
+        "location": "Oklahoma",
+        "closestLandmark": "Ski Slopes",
+        "description": "Cozy cabin retreat perfect for ski enthusiasts, complete with a sauna and hot tub.",
+        "thumbnail": "./images/thumbnail13.webp"
+    },
+    {
+        "id": 14,
+        "address": "234 Oakwood Drive",
+        "price": "$950,000",
+        "type": "Estate",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Boat Dock",
+            "Infinity Pool",
+            "Outdoor Kitchen"
+        ],
+        "location": "Chicago",
+        "closestLandmark": "Beachfront",
+        "description": "Luxurious waterfront estate with stunning ocean views and resort-style amenities.",
+        "thumbnail": "./images/thumbnail14.webp"
+    },
+    {
+        "id": 15,
+        "address": "567 Sunset Boulevard",
+        "price": "$1,200,000",
+        "type": "Mansion",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Grand Foyer",
+            "Home Theater",
+            "Pool House"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "National Park",
+        "description": "Magnificent mansion with opulent features and expansive grounds.",
+        "thumbnail": "./images/thumbnail15.webp"
+    },
+    {
+        "id": 16,
+        "address": "890 Forest Avenue",
+        "price": "$550,000",
+        "type": "Ranch",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Wood-Burning Fireplace",
+            "Wrap-around Deck",
+            "Mountain Views"
+        ],
+        "location": "Texas",
+        "closestLandmark": "National Park",
+        "description": "Rustic cabin retreat surrounded by nature, perfect for outdoor enthusiasts.",
+        "thumbnail": "./images/thumbnail16.webp"
+    },
+    {
+        "id": 17,
+        "address": "123 Beachfront Road",
+        "price": "$1,500,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Private Beach Access",
+            "Oceanfront Deck",
+            "Outdoor Shower"
+        ],
+        "location": "Oklahoma",
+        "closestLandmark": "Beach",
+        "description": "Elegant beachfront home with direct access to the sandy shores and stunning ocean views.",
+        "thumbnail": "./images/thumbnail17.webp"
+    },
+    {
+        "id": 18,
+        "address": "456 Lakeview Drive",
+        "price": "$750,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Boat Dock",
+            "Lakefront Patio",
+            "Fire Pit"
+        ],
+        "location": "Florida",
+        "closestLandmark": "Lake",
+        "description": "Charming lakefront retreat with a private dock and picturesque views of the water.",
+        "thumbnail": "./images/thumbnail18.webp"
+    },
+    {
+        "id": 19,
+        "address": "789 River Road",
+        "price": "$650,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Riverfront Deck",
+            "Outdoor Fireplace",
+            "Canoe Launch"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "River",
+        "description": "Cozy cottage nestled along the riverbank with serene views and outdoor amenities.",
+        "thumbnail": "./images/thumbnail19.webp"
+    },
+    {
+        "id": 20,
+        "address": "101 Vineyard Lane",
+        "price": "$900,000",
+        "type": "Estate",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Vineyard",
+            "Wine Cellar",
+            "Outdoor Dining Area"
+        ],
+        "location": "Texas",
+        "closestLandmark": "Vineyard",
+        "description": "Luxurious estate surrounded by vineyards, offering wine enthusiasts a dream home.",
+        "thumbnail": "./images/thumbnail20.webp"
+    },
+    {
+        "id": 21,
+        "address": "123 Pine Street",
+        "price": "$250,000",
+        "type": "Duplex",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Swimming Pool",
+            "Garden",
+            "Garage"
+        ],
+        "location": "Chicago",
+        "closestLandmark": "Central Park",
+        "description": "Beautiful single-family home with modern amenities.",
+        "thumbnail": "./images/thumbnail21.webp"
+    },
+    {
+        "id": 22,
+        "address": "456 Oak Lane",
+        "price": "$350,000",
+        "type": "Apartment",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Fitness Center",
+            "Balcony",
+            "Underground Parking"
+        ],
+        "location": "Texas",
+        "closestLandmark": "Downtown Square",
+        "description": "Modern condominium with stunning views and top-notch amenities.",
+        "thumbnail": "./images/thumbnail22.webp"
+    },
+    {
+        "id": 23,
+        "address": "789 Pine Street",
+        "price": "$450,000",
+        "type": "Ranch",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Attached Garage",
+            "Backyard Patio",
+            "Walk-in Closet"
+        ],
+        "location": "Texas",
+        "closestLandmark": "Shopping Mall",
+        "description": "Spacious townhouse with modern amenities and attached garage.",
+        "thumbnail": "./images/thumbnail23.webp"
+    },
+    {
+        "id": 24,
+        "address": "101 Elm Avenue",
+        "price": "$550,000",
+        "type": "Duplex",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Two Car Garage",
+            "Private Deck",
+            "Hardwood Floors"
+        ],
+        "location": "Florida",
+        "closestLandmark": "Public Transit Station",
+        "description": "Charming duplex with separate entrances and private deck.",
+        "thumbnail": "./images/thumbnail24.webp"
+    },
+    {
+        "id": 25,
+        "address": "234 Maple Road",
+        "price": "$400,000",
+        "type": "Apartment",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Swimming Pool",
+            "Fitness Center",
+            "Balcony"
+        ],
+        "location": "Florida",
+        "closestLandmark": "University Campus",
+        "description": "Luxurious apartment complex with resort-style amenities.",
+        "thumbnail": "./images/thumbnail25.webp"
+    },
+    {
+        "id": 26,
+        "address": "567 Cedar Avenue",
+        "price": "$600,000",
+        "type": "Ranch",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Horse Stable",
+            "Pond",
+            "Mountain Views"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "National Park",
+        "description": "Idyllic ranch-style home with scenic views and equestrian facilities.",
+        "thumbnail": "./images/thumbnail26.webp"
+    },
+    {
+        "id": 27,
+        "address": "890 Birch Lane",
+        "price": "$750,000",
+        "type": "Mansion",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Infinity Pool",
+            "Gourmet Kitchen",
+            "Home Theater"
+        ],
+        "location": "Texas",
+        "closestLandmark": "Oceanfront",
+        "description": "Exquisite luxury villa with unparalleled amenities and ocean views.",
+        "thumbnail": "./images/thumbnail27.webp"
+    },
+    {
+        "id": 28,
+        "address": "123 Pinecrest Drive",
+        "price": "$300,000",
+        "type": "Ranch",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Fireplace",
+            "Screened Porch",
+            "Wooded Lot"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "Lakefront",
+        "description": "Cozy cottage nestled among the trees with a serene lake view.",
+        "thumbnail": "./images/thumbnail28.webp"
+    },
+    {
+        "id": 29,
+        "address": "456 Rosewood Avenue",
+        "price": "$500,000",
+        "type": "Duplex",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Open Floor Plan",
+            "Exposed Brick",
+            "City Views"
+        ],
+        "location": "Chicago",
+        "closestLandmark": "City Center",
+        "description": "Stylish modern loft with urban vibes and breathtaking city views.",
+        "thumbnail": "./images/thumbnail29.webp"
+    },
+    {
+        "id": 30,
+        "address": "789 Maple Lane",
+        "price": "$650,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Private Dock",
+            "Wrap-around Deck",
+            "Boat House"
+        ],
+        "location": "Texas",
+        "closestLandmark": "University Campus",
+        "description": "Tranquil lakefront retreat with private dock and panoramic views.",
+        "thumbnail": "./images/thumbnail30.webp"
+    },
+    {
+        "id": 31,
+        "address": "890 Oak Street",
+        "price": "$550,000",
+        "type": "Ranch",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Roof Terrace",
+            "Smart Home Features",
+            "Two-Car Garage"
+        ],
+        "location": "Oklahoma",
+        "closestLandmark": "Tech Hub",
+        "description": "Contemporary townhouse with rooftop terrace and high-tech amenities.",
+        "thumbnail": "./images/thumbnail31.webp"
+    },
+    {
+        "id": 32,
+        "address": "456 Elm Avenue",
+        "price": "$700,000",
+        "type": "Mansion",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Private Elevator",
+            "Sky Garden",
+            "Panoramic Views"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "Financial District",
+        "description": "Exclusive penthouse living with unparalleled luxury and stunning city views.",
+        "thumbnail": "./images/thumbnail32.webp"
+    },
+    {
+        "id": 33,
+        "address": "123 Cedar Lane",
+        "price": "$450,000",
+        "type": "Duplex",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Wrap-around Porch",
+            "Scenic Views",
+            "Gourmet Kitchen"
+        ],
+        "location": "Chicago",
+        "closestLandmark": "Farming Community",
+        "description": "Charming country home with picturesque views and modern comforts.",
+        "thumbnail": "./images/thumbnail33.webp"
+    },
+    {
+        "id": 34,
+        "address": "789 Birch Avenue",
+        "price": "$850,000",
+        "type": "Mansion",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Grand Foyer",
+            "Indoor Pool",
+            "Private Tennis Court"
+        ],
+        "location": "Oklahoma",
+        "closestLandmark": "Exclusive Suburb",
+        "description": "Palatial mansion with opulent features and expansive grounds.",
+        "thumbnail": "./images/thumbnail34.webp"
+    },
+    {
+        "id": 35,
+        "address": "101 Pine Street",
+        "price": "$500,000",
+        "type": "Mansion",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Stone Fireplace",
+            "Hot Tub",
+            "Deck with Views"
+        ],
+        "location": "Oklahoma",
+        "closestLandmark": "Ski Resort",
+        "description": "Cozy mountain cabin with rustic charm and breathtaking mountain views.",
+        "thumbnail": "./images/thumbnail35.webp"
+    },
+    {
+        "id": 36,
+        "address": "234 Oak Lane",
+        "price": "$600,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Private Dock",
+            "Screened Porch",
+            "Fire Pit"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "Lakeside Park",
+        "description": "Quaint cottage nestled along the lakefront with serene views and outdoor amenities.",
+        "thumbnail": "./images/thumbnail36.webp"
+    },
+    {
+        "id": 37,
+        "address": "567 Maple Avenue",
+        "price": "$750,000",
+        "type": "Mansion",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Ballroom",
+            "Wrap-around Veranda",
+            "Rose Garden"
+        ],
+        "location": "Texas",
+        "closestLandmark": "University Campus",
+        "description": "Stately mansion with rich history, grand architecture, and elegant interiors.",
+        "thumbnail": "./images/thumbnail37.webp"
+    },
+    {
+        "id": 38,
+        "address": "890 Cedar Lane",
+        "price": "$850,000",
+        "type": "Estate",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Swimming Pool",
+            "Tennis Court",
+            "Guest House"
+        ],
+        "location": "Florida",
+        "closestLandmark": "Exclusive Community",
+        "description": "Luxurious gated estate offering privacy, security, and resort-style amenities.",
+        "thumbnail": "./images/thumbnail38.webp"
+    },
+    {
+        "id": 39,
+        "address": "123 Pine Street",
+        "price": "$400,000",
+        "type": "Ranch",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Exposed Brick",
+            "High Ceilings",
+            "City Views"
+        ],
+        "location": "Texas",
+        "closestLandmark": "Downtown",
+        "description": "Chic loft living in the heart of the city with industrial-chic design and urban views.",
+        "thumbnail": "./images/thumbnail39.webp"
+    },
+    {
+        "id": 40,
+        "address": "456 Maple Road",
+        "price": "$700,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Private Beach Access",
+            "Oceanfront Deck",
+            "Hot Tub"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "University Campus",
+        "description": "Tranquil seaside retreat with direct beach access and coastal-inspired interiors.",
+        "thumbnail": "./images/thumbnail40.webp"
+    },
+    {
+        "id": 41,
+        "address": "789 Elm Avenue",
+        "price": "$550,000",
+        "type": "Mansion",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Scenic Views",
+            "Cozy Fireplace",
+            "Deck"
+        ],
+        "location": "Texas",
+        "closestLandmark": "National Forest",
+        "description": "Cozy cabin nestled in the mountains with breathtaking views and rustic charm.",
+        "thumbnail": "./images/thumbnail41.webp"
+    },
+    {
+        "id": 42,
+        "address": "101 Pinecrest Drive",
+        "price": "$650,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "River Access",
+            "Outdoor Kitchen",
+            "Wrap-around Deck"
+        ],
+        "location": "Florida",
+        "closestLandmark": "Riverside Park",
+        "description": "Relaxing retreat by the river with outdoor entertainment areas and scenic surroundings.",
+        "thumbnail": "./images/thumbnail42.webp"
+    },
+    {
+        "id": 43,
+        "address": "234 Oak Lane",
+        "price": "$750,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Private Beachfront",
+            "Infinity Pool",
+            "Ocean View Balcony"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "Sandy Beach",
+        "description": "Luxurious beachfront residence with stunning ocean views and resort-style amenities.",
+        "thumbnail": "./images/thumbnail43.webp"
+    },
+    {
+        "id": 44,
+        "address": "567 Maple Avenue",
+        "price": "$850,000",
+        "type": "Estate",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Private Golf Course",
+            "Pool Pavilion",
+            "Guest Cottage"
+        ],
+        "location": "Oklahoma",
+        "closestLandmark": "University Campus",
+        "description": "Exquisite estate overlooking the golf course with luxurious amenities and lush landscaping.",
+        "thumbnail": "./images/thumbnail44.webp"
+    },
+    {
+        "id": 45,
+        "address": "890 Cedar Lane",
+        "price": "$950,000",
+        "type": "Ranch",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Spa Retreat",
+            "Private Theater",
+            "Wine Cellar"
+        ],
+        "location": "Texas",
+        "closestLandmark": "Private Enclave",
+        "description": "Luxurious villa nestled in an exclusive enclave with unparalleled amenities and privacy.",
+        "thumbnail": "./images/thumbnail45.webp"
+    },
+    {
+        "id": 46,
+        "address": "123 Maple Street",
+        "price": "$550,000",
+        "type": "Beachfront",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Private Dock",
+            "Lakeside Deck",
+            "Fire Pit"
+        ],
+        "location": "West Virginia",
+        "closestLandmark": "University Campus",
+        "description": "Quaint cottage by the lake with a private dock and stunning waterfront views.",
+        "thumbnail": "./images/thumbnail46.webp"
+    },
+    {
+        "id": 47,
+        "address": "456 Birch Avenue",
+        "price": "$650,000",
+        "type": "Mansion",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Hot Tub",
+            "Ski-in/Ski-out Access",
+            "Mountain Views"
+        ],
+        "location": "Chicago",
+        "closestLandmark": "Ski Resort",
+        "description": "Cozy chalet nestled in the mountains with convenient ski-in/ski-out access and mountain vistas.",
+        "thumbnail": "./images/thumbnail47.webp"
+    },
+    {
+        "id": 48,
+        "address": "789 Cedar Lane",
+        "price": "$750,000",
+        "type": "Estate",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Barn with Stables",
+            "Riding Arena",
+            "Pasture"
+        ],
+        "location": "Chicago",
+        "closestLandmark": "Equestrian Center",
+        "description": "Sprawling estate with equestrian facilities including a barn, riding arena, and lush pastures.",
+        "thumbnail": "./images/thumbnail48.webp"
+    },
+    {
+        "id": 49,
+        "address": "101 Elm Street",
+        "price": "$850,000",
+        "type": "Estate",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Manicured Gardens",
+            "Tennis Court",
+            "Guest House"
+        ],
+        "location": "Oklahoma",
+        "closestLandmark": "Countryside",
+        "description": "Elegant estate surrounded by manicured gardens, offering luxurious amenities and serene countryside views.",
+        "thumbnail": "./images/thumbnail49.webp"
+    },
+    {
+        "id": 50,
+        "address": "234 Oak Avenue",
+        "price": "$950,000",
+        "type": "Mansion",
+        "sellerLink": "https://example.com/seller",
+        "amenities": [
+            "Grand Foyer",
+            "Ballroom",
+            "Home Office Suite"
+        ],
+        "location": "Texas",
+        "closestLandmark": "City Center",
+        "description": "Magnificent mansion with opulent features including a grand foyer, ballroom, and home office suite.",
+        "thumbnail": "./images/thumbnail50.webp"
+    }
+]

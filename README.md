@@ -1,94 +1,78 @@
-# FeedMe - Meal Recommendation App
+# Real Estate Properties API Documentation
 
-## Project Overview
- 
-Welcome to FeedMe, a web application designed to simplify meal planning and provide quick meal recommendations. With FeedMe, you can find meal suggestions based on meal types or search for specific meals by name.
+Welcome to the Real Estate Properties API documentation. This comprehensive guide will help you understand how to interact with the API to retrieve information about various real estate properties.
 
-### API Usage
+## Base URL
 
-FeedMe utilizes a custom API to provide meal recommendations and search functionality. The API offers the following endpoints: 
+The base URL for accessing the API is `http://localhost:3000/`.
 
-- `/meals/random/:type`: Get a random meal of a specific type, where `:type` can be `breakfast`, `lunch`, `dinner`, `dessert`, or `snack`.
-- `/meals/search/:query`: Search for meals by name, using `:query` as the search term.
+## Endpoints
 
-To learn more about how to use these API endpoints and the expected response formats, please refer to our [API Documentation](./documentation.md).
+### Get All Properties
 
-## Table of Contents
+- **Endpoint**: `/`
+- **Method**: `GET`
+- **Description**: This endpoint allows you to retrieve a list of all available real estate properties.
+- **Example Request**: `GET http://localhost:3000/`
+- **Response**: An array containing JSON objects representing each property.
 
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies](#technologies-used)
-- [Project Overview](#project-overview)
+### Search Properties by Type
 
-## Project Structure
-
-- `public/`: Static assets (e.g., CSS files).
-- `data/`: JSON data files containing meal information.
-- `views/`: EJS templates for rendering HTML pages.
-- `index.js`: Main application file.
-
-## Installation
-
-To run FeedMe locally, follow these steps:
-
-1. Clone this repository to your local machine:
-
-    ```bash
-    git clone https://github.com/your-username/FeedMe.git
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd feedME
-
- 3. Install the project dependencies:
-    ```bash
-    npm install i
-
-4. Start the application
-    ```bash
-    node index
-
-Open your web browser and access the application at http://localhost:3000.
+- **Endpoint**: `/properties/type/:type`
+- **Method**: `GET`
+- **Description**: This endpoint allows you to search for properties of a specific type (e.g., Ranch, Condominium, Mansion).
+- **Parameters**:
+  - `:type` (string): The type of property to filter by.
+- **Example Request**: `GET http://localhost:3000/properties/type/Condominium`
+- **Response**: An array containing JSON objects representing properties of the specified type.
 
 
-## Usage
+### Search Properties by Location
 
-FeedMe is a user-friendly web application designed to help you find meal recommendations and plan your meals effortlessly. Here's how to use FeedMe effectively:
-
-### Finding a Random Meal
-
-1. On the homepage, you will see a "Find Meal" button. You can use this option to get a random meal recommendation.
-
-2. Select a meal type from the dropdown menu. You can choose from options like "Breakfast," "Lunch," "Dinner," "Dessert," or "Snack."
-
-3. Click the "Find Meal" button. FeedMe will generate a random meal recommendation for the selected meal type.
-
-### Searching for Specific Meals
-
-1. In the search bar, enter the name of a specific meal you're looking for.
-
-2. Click the "Search" button. FeedMe will display a list of meals that match your search query.
-
-3. Each meal in the search results is displayed in a separate box with a border. You can review the meal's name and type.
-
-4. Click on a meal box to view more details or information about the selected meal.
-
-## Technologies Used
-
-FeedMe is built using the following technologies:
-
-- Node.js
-- Nodemon
-- Axios for API
-- Vanilla.js
-- Express.js
-- EJS (Embedded JavaScript) for rendering web pages
-- CSS for personalized styling
-- Bootstrap for styling and responsive design
-
-Start using FeedMe today to discover new meal ideas and simplify your meal planning process!
+- **Endpoint**: `/properties/location/:location`
+- **Method**: `GET`
+- **Description**: This endpoint allows you to search for properties of a specific location (e.g., Texas).
+- **Parameters**:
+  - `:location` (string): The type of property to filter by.
+- **Example Request**: `GET http://localhost:3000 /properties/location/Texas`
+- **Response**: An array containing JSON objects representing properties of the specified Location.
 
 
+### Search Properties by Type and Location
 
+- **Endpoint**: `/properties/:type/:location`
+- **Method**: `GET`
+- **Description**: This endpoint allows you to search for properties of a specific type located in a specific area.
+- **Parameters**:
+  - `:type` (string): The type of property to filter by.
+  - `:location` (string): The location of property to filter by.
+- **Example Request**: `GET http://localhost:3000/properties/Mansion/Texas/`
+- **Response**: An array containing JSON objects representing properties of the specified type and location.
+
+### Get Properties by Price Range
+
+- **Endpoint**: `/properties/price-below-500k`
+- **Method**: `GET`
+- **Description**: Use this endpoint to find properties within that predefined and specified price range.
+- **Example Request**: `GET http://localhost:3000/properties/price-below-500k`
+- **Response**: An array containing JSON objects representing properties within the specified 500k price range.
+
+
+## Error Handling
+
+- If a requested property ID, type, price range, or amenity does not match any records, the API returns a 404 (Not Found) response with an appropriate error message.
+- In case of an internal server error during processing, the API returns a 500 (Internal Server Error) response with an error message.
+
+## Authentication
+
+No authentication is required to access the API endpoints.
+
+## Rate Limiting
+
+There are currently no rate limits imposed on API requests.
+
+## Support
+
+For any questions, feedback, or issues related to the API, please contact our support team at gozkybrain@gmail.com.
+
+This documentation provides detailed information on each endpoint available in the Real Estate Properties API, including examples of requests and responses, parameters, and error handling. It aims to assist developers in efficiently utilizing the API to retrieve real estate property data for various purposes.
