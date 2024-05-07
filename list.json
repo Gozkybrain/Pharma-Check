@@ -13,7 +13,7 @@
         "location": "Texas",
         "closestLandmark": "Central Park",
         "description": "Beautiful single-family home with modern amenities.",
-        "thumbnail": "./images/thumbnail1.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail1.webp"
     },
     {
         "id": 2,
@@ -29,7 +29,7 @@
         "location": "Texas",
         "closestLandmark": "Downtown Square",
         "description": "Modern condominium with stunning views and top-notch amenities.",
-        "thumbnail": "./images/thumbnail2.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail2.webp"
     },
     {
         "id": 3,
@@ -45,7 +45,7 @@
         "location": "West Virginia",
         "closestLandmark": "Shopping Mall",
         "description": "Spacious townhouse with modern amenities and attached garage.",
-        "thumbnail": "./images/thumbnail3.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail3.webp"
     },
     {
         "id": 4,
@@ -61,7 +61,7 @@
         "location": "Chicago",
         "closestLandmark": "Public Transit Station",
         "description": "Charming duplex with separate entrances and private deck.",
-        "thumbnail": "./images/thumbnail4.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail4.webp"
     },
     {
         "id": 5,
@@ -77,7 +77,7 @@
         "location": "Texas",
         "closestLandmark": "University Campus",
         "description": "Cozy ranch-style home with a spacious yard and fireplace.",
-        "thumbnail": "./images/thumbnail5.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail5.webp"
     },
     {
         "id": 6,
@@ -93,7 +93,7 @@
         "location": "Texas",
         "closestLandmark": "Financial District",
         "description": "Luxurious apartment with premium amenities and stunning city views.",
-        "thumbnail": "./images/thumbnail6.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail6.webp"
     },
     {
         "id": 7,
@@ -109,7 +109,7 @@
         "location": "Chicago",
         "closestLandmark": "Historic District",
         "description": "Elegant colonial house with luxurious amenities and picturesque surroundings.",
-        "thumbnail": "./images/thumbnail7.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail7.webp"
     },
     {
         "id": 8,
@@ -125,7 +125,7 @@
         "location": "Oklahoma",
         "closestLandmark": "Art Gallery",
         "description": "Sleek modern loft with industrial-chic design and abundant natural light.",
-        "thumbnail": "./images/thumbnail8.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail8.webp"
     },
     {
         "id": 9,
@@ -141,7 +141,7 @@
         "location": "Florida",
         "closestLandmark": "Beach Boardwalk",
         "description": "Luxurious beachfront villa with panoramic ocean views and private amenities.",
-        "thumbnail": "./images/thumbnail9.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail9.webp"
     },
     {
         "id": 10,
@@ -157,7 +157,7 @@
         "location": "Florida",
         "closestLandmark": "Lakefront",
         "description": "Cozy cabin with lakefront access and serene woodland surroundings.",
-        "thumbnail": "./images/thumbnail10.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail10.webp"
     },
     {
         "id": 11,
@@ -173,7 +173,7 @@
         "location": "West Virginia",
         "closestLandmark": "Ski Resort",
         "description": "Charming chalet nestled in the mountains with direct access to skiing.",
-        "thumbnail": "./images/thumbnail11.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail11.webp"
     },
     {
         "id": 12,
@@ -189,7 +189,7 @@
         "location": "West Virginia",
         "closestLandmark": "City Center",
         "description": "Sleek penthouse with luxurious amenities and breathtaking city views.",
-        "thumbnail": "./images/thumbnail12.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail12.webp"
     },
     {
         "id": 13,
@@ -205,7 +205,7 @@
         "location": "Oklahoma",
         "closestLandmark": "Ski Slopes",
         "description": "Cozy cabin retreat perfect for ski enthusiasts, complete with a sauna and hot tub.",
-        "thumbnail": "./images/thumbnail13.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail13.webp"
     },
     {
         "id": 14,
@@ -221,7 +221,7 @@
         "location": "Chicago",
         "closestLandmark": "Beachfront",
         "description": "Luxurious waterfront estate with stunning ocean views and resort-style amenities.",
-        "thumbnail": "./images/thumbnail14.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail14.webp"
     },
     {
         "id": 15,
@@ -237,7 +237,7 @@
         "location": "West Virginia",
         "closestLandmark": "National Park",
         "description": "Magnificent mansion with opulent features and expansive grounds.",
-        "thumbnail": "./images/thumbnail15.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail15.webp"
     },
     {
         "id": 16,
@@ -253,7 +253,7 @@
         "location": "Texas",
         "closestLandmark": "National Park",
         "description": "Rustic cabin retreat surrounded by nature, perfect for outdoor enthusiasts.",
-        "thumbnail": "./images/thumbnail16.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail16.webp"
     },
     {
         "id": 17,
@@ -269,7 +269,7 @@
         "location": "Oklahoma",
         "closestLandmark": "Beach",
         "description": "Elegant beachfront home with direct access to the sandy shores and stunning ocean views.",
-        "thumbnail": "./images/thumbnail17.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail17.webp"
     },
     {
         "id": 18,
@@ -285,7 +285,7 @@
         "location": "Florida",
         "closestLandmark": "Lake",
         "description": "Charming lakefront retreat with a private dock and picturesque views of the water.",
-        "thumbnail": "./images/thumbnail18.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail18.webp"
     },
     {
         "id": 19,
@@ -301,7 +301,7 @@
         "location": "West Virginia",
         "closestLandmark": "River",
         "description": "Cozy cottage nestled along the riverbank with serene views and outdoor amenities.",
-        "thumbnail": "./images/thumbnail19.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail19.webp"
     },
     {
         "id": 20,
@@ -317,7 +317,7 @@
         "location": "Texas",
         "closestLandmark": "Vineyard",
         "description": "Luxurious estate surrounded by vineyards, offering wine enthusiasts a dream home.",
-        "thumbnail": "./images/thumbnail20.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail20.webp"
     },
     {
         "id": 21,
@@ -333,7 +333,7 @@
         "location": "Chicago",
         "closestLandmark": "Central Park",
         "description": "Beautiful single-family home with modern amenities.",
-        "thumbnail": "./images/thumbnail21.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail21.webp"
     },
     {
         "id": 22,
@@ -349,7 +349,7 @@
         "location": "Texas",
         "closestLandmark": "Downtown Square",
         "description": "Modern condominium with stunning views and top-notch amenities.",
-        "thumbnail": "./images/thumbnail22.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail22.webp"
     },
     {
         "id": 23,
@@ -365,7 +365,7 @@
         "location": "Texas",
         "closestLandmark": "Shopping Mall",
         "description": "Spacious townhouse with modern amenities and attached garage.",
-        "thumbnail": "./images/thumbnail23.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail23.webp"
     },
     {
         "id": 24,
@@ -381,7 +381,7 @@
         "location": "Florida",
         "closestLandmark": "Public Transit Station",
         "description": "Charming duplex with separate entrances and private deck.",
-        "thumbnail": "./images/thumbnail24.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail24.webp"
     },
     {
         "id": 25,
@@ -397,7 +397,7 @@
         "location": "Florida",
         "closestLandmark": "University Campus",
         "description": "Luxurious apartment complex with resort-style amenities.",
-        "thumbnail": "./images/thumbnail25.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail25.webp"
     },
     {
         "id": 26,
@@ -413,7 +413,7 @@
         "location": "West Virginia",
         "closestLandmark": "National Park",
         "description": "Idyllic ranch-style home with scenic views and equestrian facilities.",
-        "thumbnail": "./images/thumbnail26.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail26.webp"
     },
     {
         "id": 27,
@@ -429,7 +429,7 @@
         "location": "Texas",
         "closestLandmark": "Oceanfront",
         "description": "Exquisite luxury villa with unparalleled amenities and ocean views.",
-        "thumbnail": "./images/thumbnail27.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail27.webp"
     },
     {
         "id": 28,
@@ -445,7 +445,7 @@
         "location": "West Virginia",
         "closestLandmark": "Lakefront",
         "description": "Cozy cottage nestled among the trees with a serene lake view.",
-        "thumbnail": "./images/thumbnail28.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail28.webp"
     },
     {
         "id": 29,
@@ -461,7 +461,7 @@
         "location": "Chicago",
         "closestLandmark": "City Center",
         "description": "Stylish modern loft with urban vibes and breathtaking city views.",
-        "thumbnail": "./images/thumbnail29.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail29.webp"
     },
     {
         "id": 30,
@@ -477,7 +477,7 @@
         "location": "Texas",
         "closestLandmark": "University Campus",
         "description": "Tranquil lakefront retreat with private dock and panoramic views.",
-        "thumbnail": "./images/thumbnail30.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail30.webp"
     },
     {
         "id": 31,
@@ -493,7 +493,7 @@
         "location": "Oklahoma",
         "closestLandmark": "Tech Hub",
         "description": "Contemporary townhouse with rooftop terrace and high-tech amenities.",
-        "thumbnail": "./images/thumbnail31.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail31.webp"
     },
     {
         "id": 32,
@@ -509,7 +509,7 @@
         "location": "West Virginia",
         "closestLandmark": "Financial District",
         "description": "Exclusive penthouse living with unparalleled luxury and stunning city views.",
-        "thumbnail": "./images/thumbnail32.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail32.webp"
     },
     {
         "id": 33,
@@ -525,7 +525,7 @@
         "location": "Chicago",
         "closestLandmark": "Farming Community",
         "description": "Charming country home with picturesque views and modern comforts.",
-        "thumbnail": "./images/thumbnail33.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail33.webp"
     },
     {
         "id": 34,
@@ -541,7 +541,7 @@
         "location": "Oklahoma",
         "closestLandmark": "Exclusive Suburb",
         "description": "Palatial mansion with opulent features and expansive grounds.",
-        "thumbnail": "./images/thumbnail34.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail34.webp"
     },
     {
         "id": 35,
@@ -557,7 +557,7 @@
         "location": "Oklahoma",
         "closestLandmark": "Ski Resort",
         "description": "Cozy mountain cabin with rustic charm and breathtaking mountain views.",
-        "thumbnail": "./images/thumbnail35.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail35.webp"
     },
     {
         "id": 36,
@@ -573,7 +573,7 @@
         "location": "West Virginia",
         "closestLandmark": "Lakeside Park",
         "description": "Quaint cottage nestled along the lakefront with serene views and outdoor amenities.",
-        "thumbnail": "./images/thumbnail36.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail36.webp"
     },
     {
         "id": 37,
@@ -589,7 +589,7 @@
         "location": "Texas",
         "closestLandmark": "University Campus",
         "description": "Stately mansion with rich history, grand architecture, and elegant interiors.",
-        "thumbnail": "./images/thumbnail37.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail37.webp"
     },
     {
         "id": 38,
@@ -605,7 +605,7 @@
         "location": "Florida",
         "closestLandmark": "Exclusive Community",
         "description": "Luxurious gated estate offering privacy, security, and resort-style amenities.",
-        "thumbnail": "./images/thumbnail38.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail38.webp"
     },
     {
         "id": 39,
@@ -621,7 +621,7 @@
         "location": "Texas",
         "closestLandmark": "Downtown",
         "description": "Chic loft living in the heart of the city with industrial-chic design and urban views.",
-        "thumbnail": "./images/thumbnail39.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail39.webp"
     },
     {
         "id": 40,
@@ -637,7 +637,7 @@
         "location": "West Virginia",
         "closestLandmark": "University Campus",
         "description": "Tranquil seaside retreat with direct beach access and coastal-inspired interiors.",
-        "thumbnail": "./images/thumbnail40.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail40.webp"
     },
     {
         "id": 41,
@@ -653,7 +653,7 @@
         "location": "Texas",
         "closestLandmark": "National Forest",
         "description": "Cozy cabin nestled in the mountains with breathtaking views and rustic charm.",
-        "thumbnail": "./images/thumbnail41.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail41.webp"
     },
     {
         "id": 42,
@@ -669,7 +669,7 @@
         "location": "Florida",
         "closestLandmark": "Riverside Park",
         "description": "Relaxing retreat by the river with outdoor entertainment areas and scenic surroundings.",
-        "thumbnail": "./images/thumbnail42.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail42.webp"
     },
     {
         "id": 43,
@@ -685,7 +685,7 @@
         "location": "West Virginia",
         "closestLandmark": "Sandy Beach",
         "description": "Luxurious beachfront residence with stunning ocean views and resort-style amenities.",
-        "thumbnail": "./images/thumbnail43.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail43.webp"
     },
     {
         "id": 44,
@@ -701,7 +701,7 @@
         "location": "Oklahoma",
         "closestLandmark": "University Campus",
         "description": "Exquisite estate overlooking the golf course with luxurious amenities and lush landscaping.",
-        "thumbnail": "./images/thumbnail44.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail44.webp"
     },
     {
         "id": 45,
@@ -717,7 +717,7 @@
         "location": "Texas",
         "closestLandmark": "Private Enclave",
         "description": "Luxurious villa nestled in an exclusive enclave with unparalleled amenities and privacy.",
-        "thumbnail": "./images/thumbnail45.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail45.webp"
     },
     {
         "id": 46,
@@ -733,7 +733,7 @@
         "location": "West Virginia",
         "closestLandmark": "University Campus",
         "description": "Quaint cottage by the lake with a private dock and stunning waterfront views.",
-        "thumbnail": "./images/thumbnail46.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail46.webp"
     },
     {
         "id": 47,
@@ -749,7 +749,7 @@
         "location": "Chicago",
         "closestLandmark": "Ski Resort",
         "description": "Cozy chalet nestled in the mountains with convenient ski-in/ski-out access and mountain vistas.",
-        "thumbnail": "./images/thumbnail47.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail47.webp"
     },
     {
         "id": 48,
@@ -765,7 +765,7 @@
         "location": "Chicago",
         "closestLandmark": "Equestrian Center",
         "description": "Sprawling estate with equestrian facilities including a barn, riding arena, and lush pastures.",
-        "thumbnail": "./images/thumbnail48.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail48.webp"
     },
     {
         "id": 49,
@@ -781,7 +781,7 @@
         "location": "Oklahoma",
         "closestLandmark": "Countryside",
         "description": "Elegant estate surrounded by manicured gardens, offering luxurious amenities and serene countryside views.",
-        "thumbnail": "./images/thumbnail49.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail49.webp"
     },
     {
         "id": 50,
@@ -797,6 +797,6 @@
         "location": "Texas",
         "closestLandmark": "City Center",
         "description": "Magnificent mansion with opulent features including a grand foyer, ballroom, and home office suite.",
-        "thumbnail": "./images/thumbnail50.webp"
+        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail50.webp"
     }
 ]

@@ -76,3 +76,5 @@ There are currently no rate limits imposed on API requests.
 For any questions, feedback, or issues related to the API, please contact our support team at gozkybrain@gmail.com.
 
 This documentation provides detailed information on each endpoint available in the Real Estate Properties API, including examples of requests and responses, parameters, and error handling. It aims to assist developers in efficiently utilizing the API to retrieve real estate property data for various purposes.
+
+The API is hosted on Render.com with express server, here is a [Simple YouTube Guide to this regard](https://www.youtube.com/watch?v=wN0n2gj0z9o)
