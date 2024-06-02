@@ -1,10 +1,25 @@
-# Real Estate Properties API Documentation
+# Pharm Check API Documentation
 
-Welcome to the Real Estate Properties API documentation. This comprehensive guide will help you understand how to interact with the API to retrieve information about various real estate properties.
+The Pharm Check API contains a total of 50 Pharmaceutical drugs. The experimental phase of the Pharm Check Project aims at sorting out drugs as recommendation based on various criteria while still providing information about the drug. The API will be able to integrate and solve solutions based on home services for Pharmaceutical drugs, and quizzes in that department.
 
 ## Base URL
 
 The base URL for accessing the API is `http://localhost:3000/`.
+
+To start the server locally, run `nodemon` in your terminal, be sure to already have nodemon installed: 
+
+- npm: `npm install -g nodemon`
+- yarn: `yarn global add nodemon`
+
+## Featured Properties
+The data for each drug will come with the following information, and which will help developers utilize the full aspect of this API.
+- **id**: This will be used to calculate the particular number on the sequence in which the drug falls on.
+- **name**: This is simply the drug's name.
+- **description**: A little note about the drug.
+- **sideEffect**: Known side effect of the drug.
+- **category**: The category of drug selected eg. antibiotics.
+- **treatment**: This will be used to explain what the drug can be used to treat or manage.
+- **minAge**: The minimum age to use this drug.
 
 ## Endpoints
 
@@ -12,56 +27,139 @@ The base URL for accessing the API is `http://localhost:3000/`.
 
 - **Endpoint**: `/`
 - **Method**: `GET`
-- **Description**: This endpoint allows you to retrieve a list of all available real estate properties.
 - **Example Request**: `GET http://localhost:3000/`
-- **Response**: An array containing JSON objects representing each property.
 
-### Search Properties by Type
+### Search Drugs based on closest symptoms
 
-- **Endpoint**: `/properties/type/:type`
+- **Endpoint**: `/search?q=query`
 - **Method**: `GET`
-- **Description**: This endpoint allows you to search for properties of a specific type (e.g., Ranch, Condominium, Mansion).
-- **Parameters**:
-  - `:type` (string): The type of property to filter by.
-- **Example Request**: `GET http://localhost:3000/properties/type/Condominium`
-- **Response**: An array containing JSON objects representing properties of the specified type.
+- **Example Request**: `GET http://localhost:3000/search?q=heavy+discharge+and+infections`
 
 
-### Search Properties by Location
+### Search Drugs by name
 
-- **Endpoint**: `/properties/location/:location`
+- **Endpoint**: `/search/name/:name`
 - **Method**: `GET`
-- **Description**: This endpoint allows you to search for properties of a specific location (e.g., Texas).
-- **Parameters**:
-  - `:location` (string): The type of property to filter by.
-- **Example Request**: `GET http://localhost:3000 /properties/location/Texas`
-- **Response**: An array containing JSON objects representing properties of the specified Location.
+- **Example Request**: `GET http://localhost:3000/search/name/ibuprofen`
 
 
-### Search Properties by Type and Location
+### Search Drug by category
 
-- **Endpoint**: `/properties/:type/:location`
+- **Endpoint**: `/category/:categoryName`
 - **Method**: `GET`
-- **Description**: This endpoint allows you to search for properties of a specific type located in a specific area.
-- **Parameters**:
-  - `:type` (string): The type of property to filter by.
-  - `:location` (string): The location of property to filter by.
-- **Example Request**: `GET http://localhost:3000/properties/Mansion/Texas/`
-- **Response**: An array containing JSON objects representing properties of the specified type and location.
+- **Example Request**: `GET http://localhost:3000/category/antibiotic`
 
-### Get Properties by Price Range
+### Search for drugs by category
 
-- **Endpoint**: `/properties/price-below-500k`
+- **Endpoint**: `/category/:categoryName`
 - **Method**: `GET`
-- **Description**: Use this endpoint to find properties within that predefined and specified price range.
-- **Example Request**: `GET http://localhost:3000/properties/price-below-500k`
-- **Response**: An array containing JSON objects representing properties within the specified 500k price range.
+- **Example Request**: `GET http://localhost:3000/category/antibiotic`
+
+### Get random drugs by category
+
+- **Endpoint**: `/category/:categoryName/random`
+- **Method**: `GET`
+- **Example Request**: `GET http://localhost:3000/category/antibiotic/random`
+
+
+### Search drugs by category for an age
+
+- **Endpoint**: `/category/:categoryName/age/:minAge`
+- **Method**: `GET`
+- **Example Request**: `GET http://localhost:3000/category/supplement/age/14`
+
+### Search random drugs by category excluding a specific drug
+
+- **Endpoint**: `/category/:categoryName/random/exclude/:drugName`
+- **Method**: `GET`
+- **Example Request**: `GET http://localhost:3000/category/antibiotic/random/exclude/amoxicillin`
 
 
 ## Error Handling
 
-- If a requested property ID, type, price range, or amenity does not match any records, the API returns a 404 (Not Found) response with an appropriate error message.
-- In case of an internal server error during processing, the API returns a 500 (Internal Server Error) response with an error message.
+The errors can be handled individually by developers, this will help create a robust usage of the API.
+
+## Example of Fetch Function
+
+```
+
+// Function to fetch drugs by category from the API
+
+const fetchDrugsByCategory = async (category) => {
+    try {
+        // Fetch data from the API endpoint for the specified category
+        const response = await fetch(`http://localhost:3000/category/${category}`);
+
+        // Check if the response is OK (status code 200-299)
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        // Parse the response as JSON
+        const data = await response.json();
+
+        // Log the fetched drugs
+        console.log(data);
+
+        // Handle the fetched data as needed, for example, updating the UI or state
+    } catch (error) {
+      
+        // Handle errors if any occur during fetching
+        console.error('Error fetching drugs by category:', error);
+    }
+};
+
+// Example usage of the function
+fetchDrugsByCategory('antibiotic');
+
+```
+
+
+### Example using React JS
+```
+import React, { useState, useEffect } from 'react';
+
+const DrugList = ({ category }) => {
+    const [drugs, setDrugs] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const fetchDrugs = async () => {
+            try {
+                const response = await fetch(`http://localhost:3000/category/${category}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                setDrugs(data);
+                setLoading(false);
+            } catch (error) {
+                console.error('Error fetching drugs by category:', error);
+                setLoading(false);
+            }
+        };
+
+        fetchDrugs();
+    }, [category]);
+
+    return (
+        <div>
+            {loading ? (
+                <p>Loading drugs...</p>
+            ) : (
+                <ul>
+                    {drugs.map((drug) => (
+                        <li key={drug.name}>{drug.name} - {drug.category}</li>
+                    ))}
+                </ul>
+            )}
+        </div>
+    );
+};
+
+export default DrugList;
+
+```
 
 ## Authentication
 
@@ -73,8 +171,6 @@ There are currently no rate limits imposed on API requests.
 
 ## Support
 
-For any questions, feedback, or issues related to the API, please contact our support team at gozkybrain@gmail.com.
-
-This documentation provides detailed information on each endpoint available in the Real Estate Properties API, including examples of requests and responses, parameters, and error handling. It aims to assist developers in efficiently utilizing the API to retrieve real estate property data for various purposes.
+The API is open to suggestions, recommendation, and enquiries. Feel free to reach out in ways that we can improve the quality of the server.
 
 The API is hosted on Render.com with express server, here is a [Simple YouTube Guide to this regard](https://www.youtube.com/watch?v=wN0n2gj0z9o)

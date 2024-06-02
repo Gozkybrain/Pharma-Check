@@ -1,802 +1,731 @@
 [
     {
-        "id": 1,
-        "address": "123 Main Street",
-        "price": "$250,000",
-        "type": "Duplex",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Swimming Pool",
-            "Garden",
-            "Garage"
+        "id": "1",
+        "name": "Amoxicillin",
+        "description": "Amoxicillin is used to treat a wide variety of bacterial infections.",
+        "sideEffects": [
+            "Nausea",
+            "Vomiting"
         ],
-        "location": "Texas",
-        "closestLandmark": "Central Park",
-        "description": "Beautiful single-family home with modern amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail1.webp"
+        "category": "Antibiotic",
+        "treatment": [
+            "Bacterial infections"
+        ],
+        "minAge": 0
     },
     {
-        "id": 2,
-        "address": "456 Oak Street",
-        "price": "$350,000",
-        "type": "Apartment",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Fitness Center",
-            "Balcony",
-            "Security"
+        "id": "2",
+        "name": "Augmentin",
+        "description": "Augmentin is an antibiotic used to treat bacterial infections.",
+        "sideEffects": [
+            "Diarrhea",
+            "Allergic reactions"
         ],
-        "location": "Texas",
-        "closestLandmark": "Downtown Square",
-        "description": "Modern condominium with stunning views and top-notch amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail2.webp"
+        "category": "Antibiotic",
+        "treatment": [
+            "Bacterial infections"
+        ],
+        "minAge": 18
     },
     {
-        "id": 3,
-        "address": "789 Pine Street",
-        "price": "$450,000",
-        "type": "Apartment",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Attached Garage",
-            "Backyard Patio",
-            "Walk-in Closet"
+        "id": "3",
+        "name": "Ciprofloxacin",
+        "description": "Ciprofloxacin is used to treat a variety of bacterial infections.",
+        "sideEffects": [
+            "Dizziness",
+            "Headache"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "Shopping Mall",
-        "description": "Spacious townhouse with modern amenities and attached garage.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail3.webp"
+        "category": "Antibiotic",
+        "treatment": [
+            "Bacterial infections"
+        ],
+        "minAge": 18
     },
     {
-        "id": 4,
-        "address": "101 Elm Avenue",
-        "price": "$550,000",
-        "type": "Duplex",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Two Car Garage",
-            "Private Deck",
-            "Hardwood Floors"
+        "id": "4",
+        "name": "Doxycycline",
+        "description": "Doxycycline is used to treat bacterial infections and prevent malaria.",
+        "sideEffects": [
+            "Photosensitivity",
+            "Upset stomach"
         ],
-        "location": "Chicago",
-        "closestLandmark": "Public Transit Station",
-        "description": "Charming duplex with separate entrances and private deck.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail4.webp"
+        "category": "Antibiotic",
+        "treatment": [
+            "Bacterial infections",
+            "Malaria prevention"
+        ],
+        "minAge": 8
     },
     {
-        "id": 5,
-        "address": "234 Maple Lane",
-        "price": "$400,000",
-        "type": "Ranch",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Large Yard",
-            "Fireplace",
-            "Sunroom"
+        "id": "5",
+        "name": "Azithromycin",
+        "description": "Azithromycin is used to treat various types of infections caused by bacteria.",
+        "sideEffects": [
+            "Diarrhea",
+            "Abdominal pain"
         ],
-        "location": "Texas",
-        "closestLandmark": "University Campus",
-        "description": "Cozy ranch-style home with a spacious yard and fireplace.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail5.webp"
+        "category": "Antibiotic",
+        "treatment": [
+            "Bacterial infections"
+        ],
+        "minAge": 6
     },
     {
-        "id": 6,
-        "address": "567 Walnut Avenue",
-        "price": "$600,000",
-        "type": "Apartment",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Swimming Pool",
-            "Gym",
-            "Concierge Service"
+        "id": "6",
+        "name": "Clindamycin",
+        "description": "Clindamycin is used to treat a wide variety of bacterial infections.",
+        "sideEffects": [
+            "Nausea",
+            "Diarrhea"
         ],
-        "location": "Texas",
-        "closestLandmark": "Financial District",
-        "description": "Luxurious apartment with premium amenities and stunning city views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail6.webp"
+        "category": "Antibiotic",
+        "treatment": [
+            "Bacterial infections"
+        ],
+        "minAge": 12
     },
     {
-        "id": 7,
-        "address": "789 Cherry Lane",
-        "price": "$700,000",
-        "type": "Duplex",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Spa Bathroom",
-            "Wrap-around Porch",
-            "Fire Pit"
+        "id": "7",
+        "name": "Metronidazole",
+        "description": "Metronidazole is used to treat bacterial and protozoal infections.",
+        "sideEffects": [
+            "Metallic taste",
+            "Nausea"
         ],
-        "location": "Chicago",
-        "closestLandmark": "Historic District",
-        "description": "Elegant colonial house with luxurious amenities and picturesque surroundings.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail7.webp"
+        "category": "Antibiotic",
+        "treatment": [
+            "Bacterial infections",
+            "Protozoal infections"
+        ],
+        "minAge": 12
     },
     {
-        "id": 8,
-        "address": "890 Cedar Street",
-        "price": "$800,000",
-        "type": "Duplex",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Open Floor Plan",
-            "Exposed Brick",
-            "High Ceilings"
+        "id": "8",
+        "name": "Vancomycin",
+        "description": "Vancomycin is used to treat serious bacterial infections.",
+        "sideEffects": [
+            "Red man syndrome",
+            "Kidney damage"
         ],
-        "location": "Oklahoma",
-        "closestLandmark": "Art Gallery",
-        "description": "Sleek modern loft with industrial-chic design and abundant natural light.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail8.webp"
+        "category": "Antibiotic",
+        "treatment": [
+            "Serious bacterial infections"
+        ],
+        "minAge": 18
     },
     {
-        "id": 9,
-        "address": "901 Pine Avenue",
-        "price": "$750,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Private Beach Access",
-            "Ocean View Terrace",
-            "Infinity Pool"
+        "id": "9",
+        "name": "Levofloxacin",
+        "description": "Levofloxacin is used to treat a variety of bacterial infections.",
+        "sideEffects": [
+            "Dizziness",
+            "Insomnia"
         ],
-        "location": "Florida",
-        "closestLandmark": "Beach Boardwalk",
-        "description": "Luxurious beachfront villa with panoramic ocean views and private amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail9.webp"
+        "category": "Antibiotic",
+        "treatment": [
+            "Bacterial infections"
+        ],
+        "minAge": 18
     },
     {
-        "id": 10,
-        "address": "123 Pine Street",
-        "price": "$650,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Boat Dock",
-            "Outdoor Fireplace",
-            "Screened Porch"
+        "id": "10",
+        "name": "Cefdinir",
+        "description": "Cefdinir is used to treat a wide variety of bacterial infections.",
+        "sideEffects": [
+            "Diarrhea",
+            "Rash"
         ],
-        "location": "Florida",
-        "closestLandmark": "Lakefront",
-        "description": "Cozy cabin with lakefront access and serene woodland surroundings.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail10.webp"
+        "category": "Antibiotic",
+        "treatment": [
+            "Bacterial infections"
+        ],
+        "minAge": 6
     },
     {
-        "id": 11,
-        "address": "789 Magnolia Drive",
-        "price": "$550,000",
-        "type": "Mansion",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Ski-in/Ski-out",
-            "Hot Tub",
-            "Mountain Views"
+        "id": "11",
+        "name": "Chloroquine",
+        "description": "Chloroquine is used to prevent and treat malaria.",
+        "sideEffects": [
+            "Nausea",
+            "Blurred vision"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "Ski Resort",
-        "description": "Charming chalet nestled in the mountains with direct access to skiing.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail11.webp"
+        "category": "Anti-malarial",
+        "treatment": [
+            "Malaria"
+        ],
+        "minAge": 0
     },
     {
-        "id": 12,
-        "address": "456 Cypress Lane",
-        "price": "$800,000",
-        "type": "Duplex",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Roof Terrace",
-            "Panoramic City Views",
-            "Home Automation"
+        "id": "12",
+        "name": "Mefloquine",
+        "description": "Mefloquine is used to prevent and treat malaria.",
+        "sideEffects": [
+            "Dizziness",
+            "Sleep disturbances"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "City Center",
-        "description": "Sleek penthouse with luxurious amenities and breathtaking city views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail12.webp"
+        "category": "Anti-malarial",
+        "treatment": [
+            "Malaria"
+        ],
+        "minAge": 2
     },
     {
-        "id": 13,
-        "address": "101 Pine Ridge Road",
-        "price": "$700,000",
-        "type": "Duplex",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Fireplace",
-            "Sauna",
-            "Deck with Hot Tub"
+        "id": "13",
+        "name": "Atovaquone/Proguanil",
+        "description": "Atovaquone/Proguanil is used to prevent and treat malaria.",
+        "sideEffects": [
+            "Abdominal pain",
+            "Headache"
         ],
-        "location": "Oklahoma",
-        "closestLandmark": "Ski Slopes",
-        "description": "Cozy cabin retreat perfect for ski enthusiasts, complete with a sauna and hot tub.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail13.webp"
+        "category": "Anti-malarial",
+        "treatment": [
+            "Malaria"
+        ],
+        "minAge": 18
     },
     {
-        "id": 14,
-        "address": "234 Oakwood Drive",
-        "price": "$950,000",
-        "type": "Estate",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Boat Dock",
-            "Infinity Pool",
-            "Outdoor Kitchen"
+        "id": "14",
+        "name": "Doxycycline",
+        "description": "Doxycycline is used to prevent and treat malaria and bacterial infections.",
+        "sideEffects": [
+            "Photosensitivity",
+            "Upset stomach"
         ],
-        "location": "Chicago",
-        "closestLandmark": "Beachfront",
-        "description": "Luxurious waterfront estate with stunning ocean views and resort-style amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail14.webp"
+        "category": "Anti-malarial",
+        "treatment": [
+            "Malaria",
+            "Bacterial infections"
+        ],
+        "minAge": 8
     },
     {
-        "id": 15,
-        "address": "567 Sunset Boulevard",
-        "price": "$1,200,000",
-        "type": "Mansion",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Grand Foyer",
-            "Home Theater",
-            "Pool House"
+        "id": "15",
+        "name": "Primaquine",
+        "description": "Primaquine is used to prevent malaria relapses.",
+        "sideEffects": [
+            "Nausea",
+            "Stomach cramps"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "National Park",
-        "description": "Magnificent mansion with opulent features and expansive grounds.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail15.webp"
+        "category": "Anti-malarial",
+        "treatment": [
+            "Malaria"
+        ],
+        "minAge": 16
     },
     {
-        "id": 16,
-        "address": "890 Forest Avenue",
-        "price": "$550,000",
-        "type": "Ranch",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Wood-Burning Fireplace",
-            "Wrap-around Deck",
-            "Mountain Views"
+        "id": "16",
+        "name": "Artemether/Lumefantrine",
+        "description": "Artemether/Lumefantrine is used to treat uncomplicated malaria.",
+        "sideEffects": [
+            "Nausea",
+            "Headache"
         ],
-        "location": "Texas",
-        "closestLandmark": "National Park",
-        "description": "Rustic cabin retreat surrounded by nature, perfect for outdoor enthusiasts.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail16.webp"
+        "category": "Anti-malarial",
+        "treatment": [
+            "Malaria"
+        ],
+        "minAge": 2
     },
     {
-        "id": 17,
-        "address": "123 Beachfront Road",
-        "price": "$1,500,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Private Beach Access",
-            "Oceanfront Deck",
-            "Outdoor Shower"
+        "id": "17",
+        "name": "Quinine",
+        "description": "Quinine is used to treat severe malaria.",
+        "sideEffects": [
+            "Ringing in the ears",
+            "Vision problems"
         ],
-        "location": "Oklahoma",
-        "closestLandmark": "Beach",
-        "description": "Elegant beachfront home with direct access to the sandy shores and stunning ocean views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail17.webp"
+        "category": "Anti-malarial",
+        "treatment": [
+            "Malaria"
+        ],
+        "minAge": 18
     },
     {
-        "id": 18,
-        "address": "456 Lakeview Drive",
-        "price": "$750,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Boat Dock",
-            "Lakefront Patio",
-            "Fire Pit"
+        "id": "18",
+        "name": "Artesunate",
+        "description": "Artesunate is used to treat severe malaria.",
+        "sideEffects": [
+            "Nausea",
+            "Vomiting"
         ],
-        "location": "Florida",
-        "closestLandmark": "Lake",
-        "description": "Charming lakefront retreat with a private dock and picturesque views of the water.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail18.webp"
+        "category": "Anti-malarial",
+        "treatment": [
+            "Malaria"
+        ],
+        "minAge": 6
     },
     {
-        "id": 19,
-        "address": "789 River Road",
-        "price": "$650,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Riverfront Deck",
-            "Outdoor Fireplace",
-            "Canoe Launch"
+        "id": "19",
+        "name": "Tafenoquine",
+        "description": "Tafenoquine is used to prevent malaria.",
+        "sideEffects": [
+            "Nausea",
+            "Fatigue"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "River",
-        "description": "Cozy cottage nestled along the riverbank with serene views and outdoor amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail19.webp"
+        "category": "Anti-malarial",
+        "treatment": [
+            "Malaria"
+        ],
+        "minAge": 16
     },
     {
-        "id": 20,
-        "address": "101 Vineyard Lane",
-        "price": "$900,000",
-        "type": "Estate",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Vineyard",
-            "Wine Cellar",
-            "Outdoor Dining Area"
+        "id": "20",
+        "name": "Hydroxychloroquine",
+        "description": "Hydroxychloroquine is used to treat and prevent malaria.",
+        "prescription": true,
+        "sideEffects": [
+            "Nausea",
+            "Rash"
         ],
-        "location": "Texas",
-        "closestLandmark": "Vineyard",
-        "description": "Luxurious estate surrounded by vineyards, offering wine enthusiasts a dream home.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail20.webp"
+        "category": "Anti-malarial",
+        "treatment": [
+            "Malaria"
+        ],
+        "minAge": 2
     },
     {
-        "id": 21,
-        "address": "123 Pine Street",
-        "price": "$250,000",
-        "type": "Duplex",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Swimming Pool",
-            "Garden",
-            "Garage"
+        "id": "21",
+        "name": "Ibuprofen",
+        "description": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce fever, and reduce inflammation.",
+        "sideEffects": [
+            "Stomach upset",
+            "Heartburn"
         ],
-        "location": "Chicago",
-        "closestLandmark": "Central Park",
-        "description": "Beautiful single-family home with modern amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail21.webp"
+        "category": "Pain killer",
+        "treatment": [
+            "Pain",
+            "Fever",
+            "Inflammation",
+            "Headache"
+        ],
+        "minAge": 6
     },
     {
-        "id": 22,
-        "address": "456 Oak Lane",
-        "price": "$350,000",
-        "type": "Apartment",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Fitness Center",
-            "Balcony",
-            "Underground Parking"
+        "id": "22",
+        "name": "Acetaminophen",
+        "description": "Acetaminophen is a pain reliever and fever reducer.",
+        "sideEffects": [
+            "Liver damage (in high doses)"
         ],
-        "location": "Texas",
-        "closestLandmark": "Downtown Square",
-        "description": "Modern condominium with stunning views and top-notch amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail22.webp"
+        "category": "Pain killer",
+        "treatment": [
+            "Pain",
+            "Fever"
+        ],
+        "minAge": 2
     },
     {
-        "id": 23,
-        "address": "789 Pine Street",
-        "price": "$450,000",
-        "type": "Ranch",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Attached Garage",
-            "Backyard Patio",
-            "Walk-in Closet"
+        "id": "23",
+        "name": "Aspirin",
+        "description": "Aspirin is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and reduce fever.",
+        "sideEffects": [
+            "Stomach irritation",
+            "Bleeding (in high doses)"
         ],
-        "location": "Texas",
-        "closestLandmark": "Shopping Mall",
-        "description": "Spacious townhouse with modern amenities and attached garage.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail23.webp"
+        "category": "Pain killer",
+        "treatment": [
+            "Pain",
+            "Fever",
+            "Inflammation"
+        ],
+        "minAge": 12
     },
     {
-        "id": 24,
-        "address": "101 Elm Avenue",
-        "price": "$550,000",
-        "type": "Duplex",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Two Car Garage",
-            "Private Deck",
-            "Hardwood Floors"
+        "id": "24",
+        "name": "Naproxen",
+        "description": "Naproxen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and reduce fever.",
+        "sideEffects": [
+            "Stomach pain",
+            "Heartburn"
         ],
-        "location": "Florida",
-        "closestLandmark": "Public Transit Station",
-        "description": "Charming duplex with separate entrances and private deck.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail24.webp"
+        "category": "Pain killer",
+        "treatment": [
+            "Pain",
+            "Fever",
+            "Inflammation"
+        ],
+        "minAge": 12
     },
     {
-        "id": 25,
-        "address": "234 Maple Road",
-        "price": "$400,000",
-        "type": "Apartment",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Swimming Pool",
-            "Fitness Center",
-            "Balcony"
+        "id": "25",
+        "name": "Celecoxib",
+        "description": "Celecoxib is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and reduce fever.",
+        "sideEffects": [
+            "Stomach upset",
+            "Dizziness"
         ],
-        "location": "Florida",
-        "closestLandmark": "University Campus",
-        "description": "Luxurious apartment complex with resort-style amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail25.webp"
+        "category": "Pain killer",
+        "treatment": [
+            "Pain",
+            "Fever",
+            "Inflammation",
+            "Headache"
+        ],
+        "minAge": 18
     },
     {
-        "id": 26,
-        "address": "567 Cedar Avenue",
-        "price": "$600,000",
-        "type": "Ranch",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Horse Stable",
-            "Pond",
-            "Mountain Views"
+        "id": "26",
+        "name": "Diclofenac",
+        "description": "Diclofenac is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and reduce fever.",
+        "sideEffects": [
+            "Stomach pain",
+            "Diarrhea"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "National Park",
-        "description": "Idyllic ranch-style home with scenic views and equestrian facilities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail26.webp"
+        "category": "Pain killer",
+        "treatment": [
+            "Pain",
+            "Fever",
+            "Inflammation",
+            "Headaches"
+        ],
+        "minAge": 16
     },
     {
-        "id": 27,
-        "address": "890 Birch Lane",
-        "price": "$750,000",
-        "type": "Mansion",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Infinity Pool",
-            "Gourmet Kitchen",
-            "Home Theater"
+        "id": "27",
+        "name": "Tramadol",
+        "description": "Tramadol is an opioid pain medication used to treat moderate to severe pain.",
+        "sideEffects": [
+            "Dizziness",
+            "Nausea"
         ],
-        "location": "Texas",
-        "closestLandmark": "Oceanfront",
-        "description": "Exquisite luxury villa with unparalleled amenities and ocean views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail27.webp"
+        "category": "Pain killer",
+        "treatment": [
+            "Moderate to severe pain",
+            "Body pains"
+        ],
+        "minAge": 18
     },
     {
-        "id": 28,
-        "address": "123 Pinecrest Drive",
-        "price": "$300,000",
-        "type": "Ranch",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Fireplace",
-            "Screened Porch",
-            "Wooded Lot"
+        "id": "28",
+        "name": "Codeine",
+        "description": "Codeine is an opioid pain medication used to treat mild to moderately severe pain.",
+        "sideEffects": [
+            "Drowsiness",
+            "Constipation"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "Lakefront",
-        "description": "Cozy cottage nestled among the trees with a serene lake view.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail28.webp"
+        "category": "Pain killer",
+        "treatment": [
+            "Body pains"
+        ],
+        "minAge": 12
     },
     {
-        "id": 29,
-        "address": "456 Rosewood Avenue",
-        "price": "$500,000",
-        "type": "Duplex",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Open Floor Plan",
-            "Exposed Brick",
-            "City Views"
+        "id": "29",
+        "name": "Hydrocodone",
+        "description": "Hydrocodone is an opioid pain medication used to treat moderate to severe pain.",
+        "sideEffects": [
+            "Drowsiness",
+            "Constipation"
         ],
-        "location": "Chicago",
-        "closestLandmark": "City Center",
-        "description": "Stylish modern loft with urban vibes and breathtaking city views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail29.webp"
+        "category": "Pain killer",
+        "treatment": [
+            "Body pains"
+        ],
+        "minAge": 18
     },
     {
-        "id": 30,
-        "address": "789 Maple Lane",
-        "price": "$650,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Private Dock",
-            "Wrap-around Deck",
-            "Boat House"
+        "id": "30",
+        "name": "Oxycodone",
+        "description": "Oxycodone is an opioid pain medication used to treat moderate to severe pain.",
+        "sideEffects": [
+            "Drowsiness",
+            "Constipation"
         ],
-        "location": "Texas",
-        "closestLandmark": "University Campus",
-        "description": "Tranquil lakefront retreat with private dock and panoramic views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail30.webp"
+        "category": "Pain killer",
+        "treatment": [
+            "Moderate to severe pain"
+        ],
+        "minAge": 18
     },
     {
-        "id": 31,
-        "address": "890 Oak Street",
-        "price": "$550,000",
-        "type": "Ranch",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Roof Terrace",
-            "Smart Home Features",
-            "Two-Car Garage"
+        "id": "31",
+        "name": "Cod Liver Oil",
+        "description": "Cod liver oil is a dietary supplement rich in omega-3 fatty acids, vitamins A and D.",
+        "sideEffects": [
+            "Fishy aftertaste",
+            "Digestive issues"
         ],
-        "location": "Oklahoma",
-        "closestLandmark": "Tech Hub",
-        "description": "Contemporary townhouse with rooftop terrace and high-tech amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail31.webp"
+        "category": "Supplement",
+        "treatment": [
+            "Heart health",
+            "Joint health",
+            "Immune support"
+        ],
+        "minAge": 12
     },
     {
-        "id": 32,
-        "address": "456 Elm Avenue",
-        "price": "$700,000",
-        "type": "Mansion",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Private Elevator",
-            "Sky Garden",
-            "Panoramic Views"
+        "id": "32",
+        "name": "Vitamin C",
+        "description": "Vitamin C is a water-soluble vitamin that supports the immune system and collagen production.",
+        "sideEffects": [
+            "Nausea",
+            "Stomach cramps"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "Financial District",
-        "description": "Exclusive penthouse living with unparalleled luxury and stunning city views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail32.webp"
+        "category": "Supplement",
+        "treatment": [
+            "Immune support",
+            "Antioxidant properties"
+        ],
+        "minAge": 6
     },
     {
-        "id": 33,
-        "address": "123 Cedar Lane",
-        "price": "$450,000",
-        "type": "Duplex",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Wrap-around Porch",
-            "Scenic Views",
-            "Gourmet Kitchen"
+        "id": "33",
+        "name": "Multivitamin",
+        "description": "Multivitamin is a combination of vitamins and minerals that support overall health and well-being.",
+        "sideEffects": [
+            "Upset stomach",
+            "Nausea"
         ],
-        "location": "Chicago",
-        "closestLandmark": "Farming Community",
-        "description": "Charming country home with picturesque views and modern comforts.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail33.webp"
+        "category": "Supplement",
+        "treatment": [
+            "Nutritional support",
+            "Energy boost"
+        ],
+        "minAge": 18
     },
     {
-        "id": 34,
-        "address": "789 Birch Avenue",
-        "price": "$850,000",
-        "type": "Mansion",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Grand Foyer",
-            "Indoor Pool",
-            "Private Tennis Court"
+        "id": "34",
+        "name": "Vitamin D",
+        "description": "Vitamin D is a fat-soluble vitamin that plays a crucial role in bone health and immune function.",
+        "sideEffects": [
+            "Excessive intake may lead to toxicity"
         ],
-        "location": "Oklahoma",
-        "closestLandmark": "Exclusive Suburb",
-        "description": "Palatial mansion with opulent features and expansive grounds.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail34.webp"
+        "category": "Supplement",
+        "treatment": [
+            "Bone health",
+            "Immune support"
+        ],
+        "minAge": 2
     },
     {
-        "id": 35,
-        "address": "101 Pine Street",
-        "price": "$500,000",
-        "type": "Mansion",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Stone Fireplace",
-            "Hot Tub",
-            "Deck with Views"
+        "id": "35",
+        "name": "Fish Oil",
+        "description": "Fish oil is a dietary supplement rich in omega-3 fatty acids, beneficial for heart and brain health.",
+        "sideEffects": [
+            "Fishy aftertaste",
+            "Digestive issues"
         ],
-        "location": "Oklahoma",
-        "closestLandmark": "Ski Resort",
-        "description": "Cozy mountain cabin with rustic charm and breathtaking mountain views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail35.webp"
+        "category": "Supplement",
+        "treatment": [
+            "Heart health",
+            "Brain health"
+        ],
+        "minAge": 16
     },
     {
-        "id": 36,
-        "address": "234 Oak Lane",
-        "price": "$600,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Private Dock",
-            "Screened Porch",
-            "Fire Pit"
+        "id": "36",
+        "name": "Probiotics",
+        "description": "Probiotics are live bacteria and yeasts that are good for digestive health.",
+        "sideEffects": [
+            "Mild gastrointestinal discomfort"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "Lakeside Park",
-        "description": "Quaint cottage nestled along the lakefront with serene views and outdoor amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail36.webp"
+        "category": "Supplement",
+        "treatment": [
+            "Digestive health",
+            "Immune support"
+        ],
+        "minAge": 18
     },
     {
-        "id": 37,
-        "address": "567 Maple Avenue",
-        "price": "$750,000",
-        "type": "Mansion",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Ballroom",
-            "Wrap-around Veranda",
-            "Rose Garden"
+        "id": "37",
+        "name": "Iron Supplement",
+        "description": "Iron supplement is used to prevent or treat iron deficiency anemia.",
+        "sideEffects": [
+            "Constipation",
+            "Nausea"
         ],
-        "location": "Texas",
-        "closestLandmark": "University Campus",
-        "description": "Stately mansion with rich history, grand architecture, and elegant interiors.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail37.webp"
+        "category": "Supplement",
+        "treatment": [
+            "Treatment of iron deficiency",
+            "Energy boost"
+        ],
+        "minAge": 12
     },
     {
-        "id": 38,
-        "address": "890 Cedar Lane",
-        "price": "$850,000",
-        "type": "Estate",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Swimming Pool",
-            "Tennis Court",
-            "Guest House"
+        "id": "38",
+        "name": "Calcium Supplement",
+        "description": "Calcium supplement is used to support bone health and prevent osteoporosis.",
+        "sideEffects": [
+            "Constipation",
+            "Kidney stones (in excessive intake)"
         ],
-        "location": "Florida",
-        "closestLandmark": "Exclusive Community",
-        "description": "Luxurious gated estate offering privacy, security, and resort-style amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail38.webp"
+        "category": "Supplement",
+        "treatment": [
+            "Bone health",
+            "Muscle function"
+        ],
+        "minAge": 18
     },
     {
-        "id": 39,
-        "address": "123 Pine Street",
-        "price": "$400,000",
-        "type": "Ranch",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Exposed Brick",
-            "High Ceilings",
-            "City Views"
+        "id": "39",
+        "name": "Magnesium Supplement",
+        "description": "Magnesium supplement is used to support nerve, muscle, and heart function.",
+        "sideEffects": [
+            "Diarrhea",
+            "Nausea"
         ],
-        "location": "Texas",
-        "closestLandmark": "Downtown",
-        "description": "Chic loft living in the heart of the city with industrial-chic design and urban views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail39.webp"
+        "category": "Supplement",
+        "treatment": [
+            "Nerve function",
+            "Muscle health"
+        ],
+        "minAge": 18
     },
     {
-        "id": 40,
-        "address": "456 Maple Road",
-        "price": "$700,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Private Beach Access",
-            "Oceanfront Deck",
-            "Hot Tub"
+        "id": "40",
+        "name": "Vitamin B Complex",
+        "description": "Vitamin B Complex is a group of vitamins essential for energy production and overall health.",
+        "sideEffects": [
+            "Flushing (niacin)",
+            "Nausea"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "University Campus",
-        "description": "Tranquil seaside retreat with direct beach access and coastal-inspired interiors.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail40.webp"
+        "category": "Supplement",
+        "treatment": [
+            "Energy production",
+            "Nervous system health"
+        ],
+        "minAge": 12
     },
     {
-        "id": 41,
-        "address": "789 Elm Avenue",
-        "price": "$550,000",
-        "type": "Mansion",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Scenic Views",
-            "Cozy Fireplace",
-            "Deck"
+        "id": "41",
+        "name": "Fluconazole",
+        "description": "Fluconazole is an antifungal medication used to treat yeast infections and fungal infections of the mouth, throat, esophagus, lungs, blood, and other organs.",
+        "sideEffects": [
+            "Nausea",
+            "Headache"
         ],
-        "location": "Texas",
-        "closestLandmark": "National Forest",
-        "description": "Cozy cabin nestled in the mountains with breathtaking views and rustic charm.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail41.webp"
+        "category": "Antifungal",
+        "treatment": [
+            "Yeast infections",
+            "Fungal infections"
+        ],
+        "minAge": 18
     },
     {
-        "id": 42,
-        "address": "101 Pinecrest Drive",
-        "price": "$650,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "River Access",
-            "Outdoor Kitchen",
-            "Wrap-around Deck"
+        "id": "42",
+        "name": "Ketoconazole",
+        "description": "Ketoconazole is an antifungal medication used to treat fungal infections of the skin, nails, hair, and mucous membranes.",
+        "sideEffects": [
+            "Rash",
+            "Liver toxicity (rare)"
         ],
-        "location": "Florida",
-        "closestLandmark": "Riverside Park",
-        "description": "Relaxing retreat by the river with outdoor entertainment areas and scenic surroundings.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail42.webp"
+        "category": "Antifungal",
+        "treatment": [
+            "Fungal infections"
+        ],
+        "minAge": 12
     },
     {
-        "id": 43,
-        "address": "234 Oak Lane",
-        "price": "$750,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Private Beachfront",
-            "Infinity Pool",
-            "Ocean View Balcony"
+        "id": "43",
+        "name": "Itraconazole",
+        "description": "Itraconazole is an antifungal medication used to treat fungal infections of the toenails, fingernails, skin, and mucous membranes.",
+        "sideEffects": [
+            "Nausea",
+            "Liver toxicity (rare)"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "Sandy Beach",
-        "description": "Luxurious beachfront residence with stunning ocean views and resort-style amenities.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail43.webp"
+        "category": "Antifungal",
+        "treatment": [
+            "Fungal infections"
+        ],
+        "minAge": 18
     },
     {
-        "id": 44,
-        "address": "567 Maple Avenue",
-        "price": "$850,000",
-        "type": "Estate",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Private Golf Course",
-            "Pool Pavilion",
-            "Guest Cottage"
+        "id": "44",
+        "name": "Terbinafine",
+        "description": "Terbinafine is an antifungal medication used to treat fungal infections of the skin, nails, and scalp.",
+        "sideEffects": [
+            "Diarrhea",
+            "Liver toxicity (rare)"
         ],
-        "location": "Oklahoma",
-        "closestLandmark": "University Campus",
-        "description": "Exquisite estate overlooking the golf course with luxurious amenities and lush landscaping.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail44.webp"
+        "category": "Antifungal",
+        "treatment": [
+            "Fungal infections"
+        ],
+        "minAge": 12
     },
     {
-        "id": 45,
-        "address": "890 Cedar Lane",
-        "price": "$950,000",
-        "type": "Ranch",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Spa Retreat",
-            "Private Theater",
-            "Wine Cellar"
+        "id": "45",
+        "name": "Clotrimazole",
+        "description": "Clotrimazole is an antifungal medication used to treat yeast infections of the skin, mouth, and vagina.",
+        "sideEffects": [
+            "Skin irritation",
+            "Burning sensation"
         ],
-        "location": "Texas",
-        "closestLandmark": "Private Enclave",
-        "description": "Luxurious villa nestled in an exclusive enclave with unparalleled amenities and privacy.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail45.webp"
+        "category": "Antifungal",
+        "treatment": [
+            "Yeast infections",
+            "Fungal infections"
+        ],
+        "minAge": 6
     },
     {
-        "id": 46,
-        "address": "123 Maple Street",
-        "price": "$550,000",
-        "type": "Beachfront",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Private Dock",
-            "Lakeside Deck",
-            "Fire Pit"
+        "id": "46",
+        "name": "Acyclovir",
+        "description": "Acyclovir treats infections caused by herpes simplex virus (HSV), varicella-zoster virus (VZV), and Epstein-Barr virus (EBV).",
+        "sideEffects": [
+            "Nausea",
+            "Headache"
         ],
-        "location": "West Virginia",
-        "closestLandmark": "University Campus",
-        "description": "Quaint cottage by the lake with a private dock and stunning waterfront views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail46.webp"
+        "category": "Antiviral",
+        "treatment": [
+            "Viral infections"
+        ],
+        "minAge": 12
     },
     {
-        "id": 47,
-        "address": "456 Birch Avenue",
-        "price": "$650,000",
-        "type": "Mansion",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Hot Tub",
-            "Ski-in/Ski-out Access",
-            "Mountain Views"
+        "id": "47",
+        "name": "Valacyclovir",
+        "description": "Valacyclovir treats genital herpes, cold sores, and shingles caused by herpes viruses.",
+        "sideEffects": [
+            "Nausea",
+            "Headache"
         ],
-        "location": "Chicago",
-        "closestLandmark": "Ski Resort",
-        "description": "Cozy chalet nestled in the mountains with convenient ski-in/ski-out access and mountain vistas.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail47.webp"
+        "category": "Antiviral",
+        "treatment": [
+            "Herpes infections"
+        ],
+        "minAge": 18
     },
     {
-        "id": 48,
-        "address": "789 Cedar Lane",
-        "price": "$750,000",
-        "type": "Estate",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Barn with Stables",
-            "Riding Arena",
-            "Pasture"
+        "id": "48",
+        "name": "Famciclovir",
+        "description": "Famciclovir treats herpes zoster (shingles) and recurrent outbreaks of genital herpes.",
+        "sideEffects": [
+            "Nausea",
+            "Headache"
         ],
-        "location": "Chicago",
-        "closestLandmark": "Equestrian Center",
-        "description": "Sprawling estate with equestrian facilities including a barn, riding arena, and lush pastures.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail48.webp"
+        "category": "Antiviral",
+        "treatment": [
+            "Herpes infections"
+        ],
+        "minAge": 18
     },
     {
-        "id": 49,
-        "address": "101 Elm Street",
-        "price": "$850,000",
-        "type": "Estate",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Manicured Gardens",
-            "Tennis Court",
-            "Guest House"
+        "id": "49",
+        "name": "Oseltamivir",
+        "description": "Oseltamivir treats influenza (flu) in patients with treatment for less than 2 days.",
+        "sideEffects": [
+            "Nausea",
+            "Vomiting"
         ],
-        "location": "Oklahoma",
-        "closestLandmark": "Countryside",
-        "description": "Elegant estate surrounded by manicured gardens, offering luxurious amenities and serene countryside views.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail49.webp"
+        "category": "Antiviral",
+        "treatment": [
+            "Influenza (flu)"
+        ],
+        "minAge": 2
     },
     {
-        "id": 50,
-        "address": "234 Oak Avenue",
-        "price": "$950,000",
-        "type": "Mansion",
-        "sellerLink": "https://example.com/seller",
-        "amenities": [
-            "Grand Foyer",
-            "Ballroom",
-            "Home Office Suite"
+        "id": "50",
+        "name": "Zanamivir",
+        "description": "Zanamivir treats influenza (flu) by preventing the virus from spreading inside the body.",
+        "sideEffects": [
+            "Cough",
+            "Throat irritation"
         ],
-        "location": "Texas",
-        "closestLandmark": "City Center",
-        "description": "Magnificent mansion with opulent features including a grand foyer, ballroom, and home office suite.",
-        "thumbnail": "https://raw.githubusercontent.com/Gozkybrain/eBuy-API/main/images/thumbnail50.webp"
+        "category": "Antiviral",
+        "treatment": [
+            "Influenza (flu)"
+        ],
+        "minAge": 7
     }
 ]
