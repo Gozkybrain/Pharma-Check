@@ -174,3 +174,6 @@ There are currently no rate limits imposed on API requests.
 The API is open to suggestions, recommendation, and enquiries. Feel free to reach out in ways that we can improve the quality of the server.
 
 The API is hosted on Render.com with express server, here is a [Simple YouTube Guide to this regard](https://www.youtube.com/watch?v=wN0n2gj0z9o)
+
+## Future Upgrades
+The API Server will be upgraded in the future to handle user authentication and rate limits to prevent abuse on the system. More upgrades are currently accepted, keep them coming.
