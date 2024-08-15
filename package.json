@@ -10,6 +10,7 @@
   },
   "main": "server.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "fuzzball": "^2.1.2",
     "netlify-lambda": "^1.4.3",

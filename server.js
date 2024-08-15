@@ -1,5 +1,6 @@
 const express = require('express'); // Import Express module
 const bodyParser = require('body-parser'); // Import body-parser module
+const cors = require('cors'); // Import cors module
 const fuzzball = require('fuzzball'); // Import fuzzball for fuzzy string matching
 const data = require('./list.json'); // Update the path to list.json
 
@@ -11,6 +12,16 @@ const localhost = 'http://localhost:' + PORT;
 
 // Middleware to parse JSON requests
 app.use(bodyParser.json());
+
+// CORS options
+const corsOptions = {
+    origin: ['http://localhost:3000', 'http://localhost:5173'], // Allow localhost:3000 and Vite's default port
+    methods: 'GET,POST', // Allow specific HTTP methods
+    optionsSuccessStatus: 200 // Some legacy browsers choke on 204
+};
+
+// Use CORS middleware with the specified options
+app.use(cors(corsOptions));
 
 // Preprocess the input query by converting to lowercase and splitting into words
 function preprocessInput(input) {
@@ -178,7 +189,7 @@ app.get('/category/:categoryName/age/:minAge', (req, res) => {
     res.send(matches); // Send the matches as response
 });
 
-// Start the server on the specified port
+// Start the server and listen on the defined port
 app.listen(PORT, () => {
-    console.log(`Server is running successfully on ${localhost}`);
+    console.log(`Server is running on ${localhost}`); // Log the server's URL
 });
