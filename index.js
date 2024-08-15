@@ -3,6 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser'); // Import body-parser module
 const data = require('./list.json'); // Update the path to list.json
 
+// * NOT IN USE, REFER TO SERVER.JS
 const app = express();
 
 // Middleware to parse JSON requests
