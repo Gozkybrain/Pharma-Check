@@ -13,9 +13,13 @@ const localhost = 'http://localhost:' + PORT;
 // Middleware to parse JSON requests
 app.use(bodyParser.json());
 
-// CORS options
+// CORS options, including your Netlify URL
 const corsOptions = {
-    origin: ['http://localhost:3000', 'http://localhost:5173'], // Allow localhost:3000 and Vite's default port
+    origin: [
+        'http://localhost:3000', 
+        'http://localhost:5173', // Vite's default port
+        'https://pharmacheck.netlify.app' // Your Netlify URL (omit specific paths)
+    ], 
     methods: 'GET,POST', // Allow specific HTTP methods
     optionsSuccessStatus: 200 // Some legacy browsers choke on 204
 };
