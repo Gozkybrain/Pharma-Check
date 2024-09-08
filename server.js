@@ -17,6 +17,7 @@ app.use(bodyParser.json());
 const corsOptions = {
     origin: [
         'http://localhost:3000', 
+        'http://localhost:5174',
         'http://localhost:5173', // Vite's default port
         'https://pharmacheck.netlify.app' // Your Netlify URL (omit specific paths)
     ], 
