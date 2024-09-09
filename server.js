@@ -33,6 +33,7 @@ function preprocessInput(input) {
     return input.toLowerCase().split(/\s+/);
 }
 
+
 // Find treatment matches based on fuzzy matching
 function findTreatmentMatches(query, data, threshold = 75) { // Increased threshold to 75
     const queryTokens = preprocessInput(query); // Preprocess the input query
@@ -40,7 +41,7 @@ function findTreatmentMatches(query, data, threshold = 75) { // Increased thresh
 
     console.log(`Query tokens: ${queryTokens}`); // Log query tokens
 
-    data.forEach(entry => {
+    data.forEach((entry, index) => { // Add index to use as an ID for each result
         if (entry.treatment) { // Ensure treatment is defined
             entry.treatment.forEach(treatment => {
                 console.log(`Comparing with treatment: ${treatment}`); // Log each treatment
@@ -48,7 +49,7 @@ function findTreatmentMatches(query, data, threshold = 75) { // Increased thresh
                     const score = fuzzball.partial_ratio(token, treatment.toLowerCase()); // Calculate fuzzy match score
                     console.log(`Token: ${token}, Treatment: ${treatment}, Score: ${score}`); // Log token, treatment, and score
                     if (score >= threshold) {
-                        matches.push({ drug: entry.name, treatment, score }); // Add to matches if score is above threshold
+                        matches.push({ id: index + 1, drug: entry.name, treatment, score }); // Add to matches if score is above threshold with unique id
                     }
                 });
             });
