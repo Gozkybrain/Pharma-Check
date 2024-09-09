@@ -33,7 +33,6 @@ function preprocessInput(input) {
     return input.toLowerCase().split(/\s+/);
 }
 
-
 // Find treatment matches based on fuzzy matching
 function findTreatmentMatches(query, data, threshold = 75) { // Increased threshold to 75
     const queryTokens = preprocessInput(query); // Preprocess the input query
@@ -100,6 +99,11 @@ function findRandomDrugsByCategoryExcept(category, exclude, data, count = 3) {
 function findDrugsByCategoryAndAge(category, minAge, data) {
     const matches = data.filter(entry => entry.category.toLowerCase() === category.toLowerCase() && entry.minAge >= minAge);
     return matches;
+}
+
+// Find a drug by ID
+function findDrugById(id, data) {
+    return data.find(entry => entry.id === parseInt(id, 10)); // Assuming `id` is an integer
 }
 
 // == Now Let's handle the endpoints
@@ -190,12 +194,28 @@ app.get('/category/:categoryName/age/:minAge', (req, res) => {
         return res.status(400).send({ error: 'Invalid age parameter' }); // Return an error if age is invalid
     }
 
-    const matches = findDrugsByCategoryAndAge(category, minAge, data); // Find drugs by category and minimum age
-    console.log(`Matches found for category '${category}' with minAge '${minAge}': ${JSON.stringify(matches)}`); // Log the matches found
+    const matches = findDrugsByCategoryAndAge(category, minAge, data); // Find drugs by category and age
+    console.log(`Matches found for category '${category}' and minimum age '${minAge}': ${JSON.stringify(matches)}`); // Log the matches found
     res.send(matches); // Send the matches as response
 });
 
-// Start the server and listen on the defined port
+/*
+  API endpoint for getting a drug by ID.
+  Complete route: http://localhost:3000/drug/:id
+  Example: http://localhost:3000/drug/1
+*/
+app.get('/drug/:id', (req, res) => {
+    const id = req.params.id; // Get the ID from the request parameters
+    const drug = findDrugById(id, data); // Find drug by ID
+    if (drug) {
+        console.log(`Drug found with ID '${id}': ${JSON.stringify(drug)}`); // Log the found drug
+        res.send(drug); // Send the drug as response
+    } else {
+        res.status(404).send({ error: 'Drug not found' }); // Return an error if drug is not found
+    }
+});
+
+// Start the server and listen for incoming requests
 app.listen(PORT, () => {
-    console.log(`Server is running on ${localhost}`); // Log the server's URL
+    console.log(`Server is running on ${localhost}`);
 });
