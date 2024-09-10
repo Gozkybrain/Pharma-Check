@@ -49,11 +49,11 @@ The data for each drug will come with the following information, and which will 
 - **Method**: `GET`
 - **Example Request**: `GET http://localhost:3000/category/antibiotic`
 
-### Search for drugs by category
+### Search for drugs by id
 
-- **Endpoint**: `/category/:categoryName`
+- **Endpoint**: `/drug/:id`
 - **Method**: `GET`
-- **Example Request**: `GET http://localhost:3000/category/antibiotic`
+- **Example Request**: `GET http://localhost:3000/drug/1`
 
 ### Get random drugs by category
 
